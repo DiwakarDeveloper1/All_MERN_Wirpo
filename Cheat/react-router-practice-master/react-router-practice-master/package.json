@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "axios-react": "^2.0.8",
+    "link-react": "^3.0.0"
+  }
+}

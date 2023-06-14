@@ -1,0 +1,126 @@
+.blog {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.search {
+  text-align: right;  
+}
+
+.mainbar {
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+.sub {
+  padding-top: 17px;
+  font-weight: bold;
+  color: rgb(54, 41, 198);
+}
+
+.icon {
+  margin-right: 10px;
+  padding-top: 10px;
+
+}
+
+.sign {
+  font-weight: bold;
+}
+
+.data {
+  list-style: none;
+  color: rgb(109, 107, 107);
+  margin-right: 20px;
+}
+
+.data>li>a {
+  list-style: none;
+  color: rgb(121, 117, 117);
+  font-weight: bold;
+}
+
+.img1 {
+  width: 100%;
+}
+
+.posts {
+  margin-top: 30px;
+}
+
+.posts {
+  margin-top: 70px;
+}
+
+.image1 {
+  margin-left: 200px;
+}
+
+.mainbody {
+  margin-top: 40px;
+}
+
+.leftbody {
+  margin-left: 20px;
+}
+
+.rightbody {
+  margin-left: 70px;
+}
+
+.carding {
+  background-color: rgb(240, 233, 233);
+  padding: 10px;
+}
+
+.items {
+  margin-top: 30px;
+}
+
+.item {
+  list-style: none;
+  font-weight: bold;
+}
+
+td>img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(252, 251, 251);
+  height: auto;
+  padding-top: 40px;
+  color: black;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content p {
+  max-width: 400px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 17px;
+  color: rgb(44, 44, 44);
+}
+
+.para {
+  max-width: 300px;
+}

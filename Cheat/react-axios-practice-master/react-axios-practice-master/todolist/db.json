@@ -1,0 +1,24 @@
+{
+  "lists": [
+    {
+      "list": "Go to gym",
+      "id": 1
+    },
+    {
+      "list": "working in wipro",
+      "id": 2
+    },
+    {
+      "list": "We are the Pro",
+      "id": 3
+    },
+    {
+      "list": "Meeting at 9PM",
+      "id": 4
+    },
+    {
+      "list": "we are going to mumbai",
+      "id": 5
+    }
+  ]
+}

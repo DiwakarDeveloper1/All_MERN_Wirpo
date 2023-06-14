@@ -1,0 +1,23 @@
+.main{
+    border: 1px solid gray;
+    margin-top: 15px;
+    height: 105vh;
+}
+.title{
+    text-align: center;
+}
+.checkbtn{
+    margin-top: 30px;
+    margin-left: -9px;
+}
+.btn{
+    text-align: right;
+}
+.foot{
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+.txt{
+    color: red;
+}

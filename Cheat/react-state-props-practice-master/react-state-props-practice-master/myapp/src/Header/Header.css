@@ -1,0 +1,18 @@
+.head{
+    box-shadow: 5px 5px 5px 0px;
+}
+.one{
+    margin-top: 10px;
+}
+.text{
+    text-align: left;
+    margin-top: 62px;
+    padding-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text1{
+    font-size: 70px;
+}
+.new{
+    border-radius: 3%;
+}

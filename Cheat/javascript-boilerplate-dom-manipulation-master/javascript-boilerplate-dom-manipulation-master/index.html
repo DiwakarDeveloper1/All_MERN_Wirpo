@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>JavaScript Assignment</title>
+	<link rel="stylesheet" type="text/css" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+	<style>
+		section {
+			margin: 2em;
+		}
+
+		form {
+			margin: 2em;
+		}
+	</style>
+
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<section class="card">
+		<div class="card-header d-flex flex-row">
+			<h4 class="col">Issues Summary</h4>
+		</div>
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th></th>
+					<th>total</th>
+					<th>open</th>
+					<th>my_issues</th>
+				</tr>
+			</thead>
+			<tbody id="tbody">
+			</tbody>
+		</table>
+	</section>
+
+	<section class="card">
+
+		<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+			Create An Issue
+		</button>
+
+
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Create Your New Repo</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="form-group">
+								<label>Repository</label>
+								<input type="text" class="form-control" placeholder="Type repository name here"
+									id="repoName">
+							</div>
+							<div class="form-group">
+								<label>Title</label>
+								<input type="text" class="form-control" placeholder="Type title" id="titleName">
+							</div>
+							<div class="form-group">
+								<label>Description</label>
+								<input type="text" class="form-control" placeholder="Type description" id="description">
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+							onclick="createIssue()">Save changes</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="card">
+		<h4 class="card-header">Explore</h4>
+		<form onsubmit="mainfunction()">
+			<div class="form-group" id="input1">
+				<label for="countQueryRepositoryInput">Repository</label>
+				<input type="text" class="form-control" id="countQueryRepositoryInput"
+					placeholder="Type Your repository name here">
+			</div>
+			<div class="form-group" id="input2">
+				<label>Count</label>
+				<input type="text" class="form-control" placeholder="Type count type" id="popupValue">
+			</div>
+			<div class="dropdown" style="display: none;" id="dropDown">
+				<button class="btn btn-primary w-100 dropdown-toggle" type="button" id="dropdownMenuButton1"
+					data-bs-toggle="dropdown" aria-expanded="false">
+					Dropdown Button
+				</button>
+				<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" id="dropDownItem">
+
+				</ul>
+			</div>
+			<input type="submit" value="Go!" class="btn btn-primary" onclick="popup()" id="goBtn">
+		</form>
+	</section>
+
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
+

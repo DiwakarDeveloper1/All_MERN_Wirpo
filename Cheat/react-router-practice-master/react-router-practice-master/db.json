@@ -1,0 +1,100 @@
+{
+  "books": [
+    {
+      "title": "Modern Operating Systems",
+      "author": "Andrew S. Tanenbaum",
+      "description": "The widely anticipated revision of this worldwide best-seller incorporates the latest developments in operating systems technologies.Â  The Third Edition includes up-to-date materials on relevant operating systems such as Linux, Windows, and embedded real-time and multimedia systems. Includes new and updated ",
+      "published": "1999",
+      "langauge": "English",
+      "id": 2
+    },
+    {
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen; Charles E. Leiserson; Ron Rivest",
+      "description": "Some books on algorithms are rigorous but incomplete; others cover masses of material but lack rigor. Introduction to Algorithms uniquely combines rigor and",
+      "published": "2008",
+      "langauge": "English",
+      "id": 3
+    },
+    {
+      "title": "Free Software, Free Society",
+      "author": "Richard Stallman",
+      "description": "Free Software, Free Society: Selected Essays of Richard M. Stallman is a book by Joshua Gay compiling different essays of Richard M. Stallman. * The intersection of ethics, law, business and computer software is the subject of these essays and speeches by MacArthur Foundation Grant winner",
+      "published": "1992",
+      "langauge": "English",
+      "id": 4
+    },
+    {
+      "title": "The Little Schemer",
+      "author": "Daniel P. Friedman; Matthias Felleisen",
+      "description": "The notion that \"thinking about computing is one of the most exciting things the human mind can do\" sets both The Little Schemer ",
+      "published": "2003",
+      "langauge": "English",
+      "id": 5
+    },
+    {
+      "title": "The Mythical Man-Month",
+      "author": "Frederick P. Brooks",
+      "description": "Few books on software project management have been as influential and timeless as The Mythical Man-Month. With a blend of software engineering facts and thought-provoking opinions, Fred Brooks offers insight for anyone managing complex projects.",
+      "published": "2003",
+      "langauge": "English",
+      "id": 6
+    },
+    {
+      "title": "Programming Pearls",
+      "author": "Jon Bentley",
+      "description": "\"The first edition of Programming Pearls was one of the most influential books I read early in my career, and many of the insights I first encountered in that book stayed with me long after I read it.",
+      "published": "1992",
+      "langauge": "English",
+      "id": 7
+    },
+    {
+      "title": "Design Patterns",
+      "author": "Erich Gamma; Ralph Johnson; John Vlissides",
+      "description": "Capturing a wealth of experience about the design of object-oriented software, four top-notch designers present a catalog of simple and succinct solutions to commonly occurring design problems. Previously undocumented, these 23 patterns allow designers to create more flexible, elegant, and ultimately reusable designs without having to rediscover",
+      "published": "2001",
+      "langauge": "English",
+      "id": 8
+    },
+    {
+      "title": "Computing: A Concise History",
+      "author": "Paul E. Ceruzzi",
+      "description": "The history of computing could be told as the story of hardware and software, or the story of the Internet, or the story of \"smart\" hand-held ",
+      "published": "1993",
+      "langauge": "English",
+      "id": 9
+    },
+    {
+      "title": "Thinking in Java",
+      "author": "Bruce Eckel",
+      "description": "Thinking in Java should be read cover to cover by every Java programmer, then kept close at hand for frequent reference. The exercises are challenging, and the chapter on Collections is superb! Not only did this book help me to pass the Sun Certified Java Programmer exam",
+      "published": "2001",
+      "langauge": "English",
+      "id": 10
+    },
+    {
+      "title": "Data Structures and Algorithms",
+      "author": "Jeffrey D. Ullman; Alfred V. Aho",
+      "description": "The authors' treatment of data structures in Data Structures and Algorithms is unified by an informal notion of \"abstract data types,\" allowing readers to compare different implementations of the same concept. Algorithm design techniques are also stressed and basic algorithm analysis is covered",
+      "published": "1996",
+      "langauge": "Hindi, English",
+      "id": 11
+    },
+    {
+      "title": "The Art of UNIX Programming",
+      "author": "Eric S. Raymond",
+      "description": "The Art of UNIX Programming poses the belief that understanding the unwritten UNIX engineering tradition and mastering its design patterns will help programmers of all stripes to become better programmers.",
+      "published": "1992",
+      "langauge": "English",
+      "id": 12
+    },
+    {
+      "title": "The Soul of A New Machine",
+      "author": "Tracy Kidder",
+      "description": "Computers have changed since 1981, when Tracy Kidder memorably recorded the drama, comedy, and excitement of one companys efforts to bring a new microcomputer to market. What has not changed is the feverish pace of the high-tech industry, the go-for-broke approach to business",
+      "published": "2000",
+      "langauge": "English",
+      "id": 13
+    }
+  ]
+}
